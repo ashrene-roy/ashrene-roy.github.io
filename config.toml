@@ -1,4 +1,4 @@
-baseURL = 'http://ashreneroy.github.io/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Voyager'
 theme = 'PaperMod'
