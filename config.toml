@@ -1,0 +1,4 @@
+baseURL = 'http://ashreneroy.github.io/'
+languageCode = 'en-us'
+title = 'Voyager'
+theme = 'PaperMod'
