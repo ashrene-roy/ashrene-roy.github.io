@@ -2,6 +2,7 @@
 title: "Financial Markets"
 date: 2022-12-01T20:15:47+05:30
 draft: false
+math: true
 ---
 
 I recently enrolled in ['Financial Markets' by Yale University](https://www.coursera.org/learn/financial-markets-global) - a coursera program, to start exploring Economics. As a Software Engineer this field is very much uncharted territory for me, so if you have a roadmap to exploring Economics from scratch I'd be happy to hear from you.
@@ -10,7 +11,7 @@ I recently enrolled in ['Financial Markets' by Yale University](https://www.cour
 
 ### Regression Line
 
-Regression line formula = $y = mx + c$
+Regression line formula $y = mx + c$
 
 y = dependant variable\
 x = independant variable\
@@ -48,5 +49,24 @@ Good read: [How Normal Distribution Is Used in Finance](https://www.investopedia
 
 Given a sufficiently large sample size from a population with a finite level of variance, the mean of all sample will be approximately equal to the mean of the whole population and samples approximate a normal distribution.
 
-Useful to study the returns of stock index which may contain 1000s of stocks. You can take sample out of it say 30-50 stocks and study it's returns instead of all 1000, and that can be used to understand the returns of the overall stock index. Eliminate bias by randomly sapping out stocks.
+Useful to study the returns of stock index which may contain 1000s of stocks. You can take sample out of it say 30-50 stocks and study it's returns instead of all 1000, and that can be used to understand the returns of the overall stock index. Eliminate bias by randomly swapping out stocks.
 
+## Insurance
+
+The policyholders have a contract with the insurance company to protect them against certain well-defined risks and for that they pay a premium, a regular payment to the insurance company for its standing ready to manage those risks. 
+
+### Fundamental Insurance Principles and Issues
+
+* Risk Pooling
+
+What maybe a risk for one person is not a risk for society at large if they are independent. Because by the Law of Large Numbers, the number of bad outcomes are fairly predictable. The insurance company pools all these risks, and by the Law of Large Numbers is not really risky in itself.
+
+Standard deviation of the fraction of policies that result in a claim is $$ \sqrt{ p(1-p)/n } $$ where p is the probability of the risk to occur such as a calamity, and n is the population size. So for large n the S.D. tends to 0. But this is not the case irl as there could be wars, natural disasters, moral hazards, selection bias increasing the probability of risk.
+
+* Moral hazard
+
+Moral hazard occurs when people knowing they are insured take more risks. So for example, if a house is insured against fire one may say, "I'll be careless with fire because it's insured." So then the risk goes up. Or even worse, if the insurance company insures the house for more than resale value, then "I'll just burn it down and pretend it was an accident. And then I'll get more money than I would have for selling the house."
+
+* Selection bias
+
+The insurance company may not be able to see all of the risk parameters that define risk and sometimes their customers may see them more. For example, health insurance tends to attract sick people. So health insurance companies ask for a medical exam, traditionally, to screen out people who know they're already going to be sick. If they're not successful in doing that, then the selection bias can harm their business and it can destroy an insurance business because, if people know that they're going to be ill, then only sick people sign up. The insurance has to be expensive. Healthy people won't sign up because they don't want to pay the expense and so the whole thing collapses and doesn't work. The government can make it mandatory that insurance companies do not look at the selection.
